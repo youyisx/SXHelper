@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'SXHelper_Example' do
+  pod 'SXHelper', :path => '../'
+
+  target 'SXHelper_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
