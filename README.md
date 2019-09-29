@@ -22,7 +22,7 @@ pod 'SXHelper'
 
 ## Author
 
-youyisx@hotmail.com, youyisx@hotmail.com
+vince, youyisx@hotmail.com
 
 ## License
 

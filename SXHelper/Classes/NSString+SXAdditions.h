@@ -14,4 +14,7 @@
 
 - (BOOL)isNumeric;
 
+/** 小数位精度控制*/
+- (NSString *)sx_decimalPoint:(NSInteger)point;
+
 @end
