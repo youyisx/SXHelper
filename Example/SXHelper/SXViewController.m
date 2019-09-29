@@ -7,7 +7,7 @@
 //
 
 #import "SXViewController.h"
-
+#import <SXHelper/SXSafeTool.h>
 @interface SXViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSNumber * ss = @(123);
+    NSString * s = stringWithObject(ss);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
